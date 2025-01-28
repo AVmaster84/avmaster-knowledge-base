@@ -1,3 +1,14 @@
 title: API
 icon: lucide:code-xml
 navigation.redirect: /api/configuration
+
+
+const {
+  site,
+  search,
+  header,
+  main,
+  aside,
+  footer,
+  toc,
+} = useConfig();
